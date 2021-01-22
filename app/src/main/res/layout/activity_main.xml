@@ -36,22 +36,26 @@
         app:layout_constraintTop_toBottomOf="@+id/editText_title" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/bCh1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="33dp"
         android:text="Send on Channel 1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_message" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_message" 
+        android:onClick="bCh1Click"
+        />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/bCh2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
         android:text="Send On Channel 2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1" />
+        app:layout_constraintTop_toBottomOf="@+id/bCh1" 
+        android:onClick="bCh2Click"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
