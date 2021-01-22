@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         int notificationId = 2;
-        nMC.notify(notificationId, notification);    }
+        nMC.notify(notificationId, notification);
     }
     
 }
