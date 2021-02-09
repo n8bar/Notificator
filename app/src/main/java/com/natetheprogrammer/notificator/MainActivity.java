@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         int notificationId = 1;
-        nMC.notify(notificationId, notification);    }
+        nMC.notify(notificationId, notification);    
+    }
         
     public void bCh2Click(View view) {
         String title = etTitle.getText().toString();
